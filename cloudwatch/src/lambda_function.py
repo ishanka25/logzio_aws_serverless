@@ -3,7 +3,7 @@ import json
 import logging
 import os
 
-from shipper.shipper import LogzioShipper
+from shipper import LogzioShipper
 from StringIO import StringIO
 
 KEY_INDEX = 0
